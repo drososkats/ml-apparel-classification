@@ -1,0 +1,41 @@
+# ---- Datasets (large CSVs not committed) ----
+datasets/raw/*.csv
+datasets/raw/*.zip
+!datasets/raw/.gitkeep
+
+# ---- Trained models / artifacts ----
+models/*
+!models/.gitkeep
+*.pkl
+*.joblib
+
+# ---- Python ----
+__pycache__/
+*.py[cod]
+*.egg-info/
+
+# ---- Virtual environments ----
+.venv/
+venv/
+env/
+
+# ---- Jupyter ----
+.ipynb_checkpoints/
+
+# ---- Secrets / env ----
+.env
+
+# ---- IDE / OS ----
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# ---- Testing / coverage ----
+.pytest_cache/
+.coverage
+.ruff_cache/
+.mypy_cache/
+
+*.csv
+*.zip
